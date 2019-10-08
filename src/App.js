@@ -1,10 +1,17 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
+import DogsList from "../src/Containers/DogsList";
 import "./App.css";
 
 class App extends Component {
   render() {
-    return <DogsList />;
+    
+    return (
+      <div>
+        {/* {logo} */}
+        <DogsList />
+      </div>
+    );
   }
 }
 
